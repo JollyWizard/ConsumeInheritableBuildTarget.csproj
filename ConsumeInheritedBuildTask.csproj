@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" DefaultTargets="HelloProps;HelloTargets;Hello-Child">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="InheritableBuildTarget" Version="1.0.4" />
+  </ItemGroup>
+
+  <Target Name="Hello-Child">
+    <Message Text="$(Message_Default)" Importance="high" />
+  </Target>
+
+</Project>
