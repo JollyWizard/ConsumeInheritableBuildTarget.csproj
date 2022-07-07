@@ -6,10 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="InheritableBuildTarget" Version="1.0.4" />
-  </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="InheritableBuildTarget" Version="1.0.0" />
+  </ItemGroup>
+  
   <Target Name="Hello-Child">
     <Message Text="$(Message_Default)" Importance="high" />
   </Target>
