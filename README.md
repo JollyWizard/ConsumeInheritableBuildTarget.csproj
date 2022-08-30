@@ -14,7 +14,7 @@ This project is an example of how to consume the inherited build file targets pr
 
 ### Details
 
-This project demonstrates the process of importing inherited build artifacts using three declares 3 default targets:
+This project demonstrates the process of importing inherited build artifacts using three 3 default targets:
 
 * `HelloProps` Located in the dependency.
 * `HelloTargets` Also located in the dependency.
